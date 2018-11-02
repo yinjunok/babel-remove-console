@@ -4,7 +4,7 @@
 
 文件说明:
 
-`remove-console.js` 插件代码.
+`remove-console.js` 插件代码  
 `sample-code.js `   测试代码
 
 演示说明: 
