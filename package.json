@@ -1,0 +1,19 @@
+{
+  "name": "babel-plugin-demo",
+  "version": "1.0.0",
+  "main": "remove-console.js",
+  "license": "MIT",
+  "description": "babel 移除 console 插件.",
+  "keywords": [
+    "babel plugins",
+    "实现一个 babel plugins"
+  ],
+  "scripts": {
+    "build": "babel sample-code.js -d lib"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0"
+  }
+}

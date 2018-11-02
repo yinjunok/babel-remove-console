@@ -1,0 +1,16 @@
+{
+  "presets": [
+    "@babel/preset-env"
+  ],
+  "plugins": [
+    [
+      "./remove-console.js",
+      {
+        "remove": [
+          "log",
+          "debug"
+        ]
+      }
+    ]
+  ]
+}
