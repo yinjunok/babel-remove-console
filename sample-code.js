@@ -8,6 +8,10 @@ function sample() {
   console.info(arguments);
   // console.debug 应该被删除
   console.debug(arguments);
+
+  // 无法正确处理的情况
+  const log = console.log;
+  log("hello world");
   return () => {
     // console.log 应该被删除
     console.log(arguments);
